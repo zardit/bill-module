@@ -7,8 +7,8 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication
 @ImportResource({ "classpath:applicationContext.xml" })
 
-public class PaymentGatewayApplication {
+public class PaymentCoreApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(PaymentGatewayApplication.class, args);
+		SpringApplication.run(PaymentCoreApplication.class, args);
 	}
 }
